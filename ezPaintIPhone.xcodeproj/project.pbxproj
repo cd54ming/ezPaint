@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57117E9C2646B5860001D814 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117E9B2646B5860001D814 /* AppDelegate.swift */; };
+		57117E9E2646B5860001D814 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117E9D2646B5860001D814 /* SceneDelegate.swift */; };
+		57117EA02646B5860001D814 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117E9F2646B5860001D814 /* ViewController.swift */; };
+		57117EA32646B5860001D814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57117EA12646B5860001D814 /* Main.storyboard */; };
+		57117EA52646B58A0001D814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57117EA42646B58A0001D814 /* Assets.xcassets */; };
+		57117EA82646B58A0001D814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57117EA62646B58A0001D814 /* LaunchScreen.storyboard */; };
+		57117EB32646B58A0001D814 /* ezPaintIPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EB22646B58A0001D814 /* ezPaintIPhoneTests.swift */; };
+		57117EBE2646B58A0001D814 /* ezPaintIPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EBD2646B58A0001D814 /* ezPaintIPhoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57117EAF2646B58A0001D814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57117E902646B5860001D814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57117E972646B5860001D814;
+			remoteInfo = ezPaintIPhone;
+		};
+		57117EBA2646B58A0001D814 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 57117E902646B5860001D814 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57117E972646B5860001D814;
+			remoteInfo = ezPaintIPhone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		57117E982646B5860001D814 /* ezPaintIPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezPaintIPhone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57117E9B2646B5860001D814 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		57117E9D2646B5860001D814 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		57117E9F2646B5860001D814 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		57117EA22646B5860001D814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		57117EA42646B58A0001D814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		57117EA72646B58A0001D814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		57117EA92646B58A0001D814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57117EAE2646B58A0001D814 /* ezPaintIPhoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezPaintIPhoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57117EB22646B58A0001D814 /* ezPaintIPhoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezPaintIPhoneTests.swift; sourceTree = "<group>"; };
+		57117EB42646B58A0001D814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57117EB92646B58A0001D814 /* ezPaintIPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezPaintIPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		57117EBD2646B58A0001D814 /* ezPaintIPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezPaintIPhoneUITests.swift; sourceTree = "<group>"; };
+		57117EBF2646B58A0001D814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57117E952646B5860001D814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57117EAB2646B58A0001D814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57117EB62646B58A0001D814 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57117E8F2646B5860001D814 = {
+			isa = PBXGroup;
+			children = (
+				57117E9A2646B5860001D814 /* ezPaintIPhone */,
+				57117EB12646B58A0001D814 /* ezPaintIPhoneTests */,
+				57117EBC2646B58A0001D814 /* ezPaintIPhoneUITests */,
+				57117E992646B5860001D814 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57117E992646B5860001D814 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57117E982646B5860001D814 /* ezPaintIPhone.app */,
+				57117EAE2646B58A0001D814 /* ezPaintIPhoneTests.xctest */,
+				57117EB92646B58A0001D814 /* ezPaintIPhoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57117E9A2646B5860001D814 /* ezPaintIPhone */ = {
+			isa = PBXGroup;
+			children = (
+				57117E9B2646B5860001D814 /* AppDelegate.swift */,
+				57117E9D2646B5860001D814 /* SceneDelegate.swift */,
+				57117E9F2646B5860001D814 /* ViewController.swift */,
+				57117EA12646B5860001D814 /* Main.storyboard */,
+				57117EA42646B58A0001D814 /* Assets.xcassets */,
+				57117EA62646B58A0001D814 /* LaunchScreen.storyboard */,
+				57117EA92646B58A0001D814 /* Info.plist */,
+			);
+			path = ezPaintIPhone;
+			sourceTree = "<group>";
+		};
+		57117EB12646B58A0001D814 /* ezPaintIPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				57117EB22646B58A0001D814 /* ezPaintIPhoneTests.swift */,
+				57117EB42646B58A0001D814 /* Info.plist */,
+			);
+			path = ezPaintIPhoneTests;
+			sourceTree = "<group>";
+		};
+		57117EBC2646B58A0001D814 /* ezPaintIPhoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				57117EBD2646B58A0001D814 /* ezPaintIPhoneUITests.swift */,
+				57117EBF2646B58A0001D814 /* Info.plist */,
+			);
+			path = ezPaintIPhoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57117E972646B5860001D814 /* ezPaintIPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57117EC22646B58A0001D814 /* Build configuration list for PBXNativeTarget "ezPaintIPhone" */;
+			buildPhases = (
+				57117E942646B5860001D814 /* Sources */,
+				57117E952646B5860001D814 /* Frameworks */,
+				57117E962646B5860001D814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ezPaintIPhone;
+			productName = ezPaintIPhone;
+			productReference = 57117E982646B5860001D814 /* ezPaintIPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		57117EAD2646B58A0001D814 /* ezPaintIPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57117EC52646B58A0001D814 /* Build configuration list for PBXNativeTarget "ezPaintIPhoneTests" */;
+			buildPhases = (
+				57117EAA2646B58A0001D814 /* Sources */,
+				57117EAB2646B58A0001D814 /* Frameworks */,
+				57117EAC2646B58A0001D814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57117EB02646B58A0001D814 /* PBXTargetDependency */,
+			);
+			name = ezPaintIPhoneTests;
+			productName = ezPaintIPhoneTests;
+			productReference = 57117EAE2646B58A0001D814 /* ezPaintIPhoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		57117EB82646B58A0001D814 /* ezPaintIPhoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57117EC82646B58A0001D814 /* Build configuration list for PBXNativeTarget "ezPaintIPhoneUITests" */;
+			buildPhases = (
+				57117EB52646B58A0001D814 /* Sources */,
+				57117EB62646B58A0001D814 /* Frameworks */,
+				57117EB72646B58A0001D814 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				57117EBB2646B58A0001D814 /* PBXTargetDependency */,
+			);
+			name = ezPaintIPhoneUITests;
+			productName = ezPaintIPhoneUITests;
+			productReference = 57117EB92646B58A0001D814 /* ezPaintIPhoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57117E902646B5860001D814 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					57117E972646B5860001D814 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					57117EAD2646B58A0001D814 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 57117E972646B5860001D814;
+					};
+					57117EB82646B58A0001D814 = {
+						CreatedOnToolsVersion = 12.5;
+						TestTargetID = 57117E972646B5860001D814;
+					};
+				};
+			};
+			buildConfigurationList = 57117E932646B5860001D814 /* Build configuration list for PBXProject "ezPaintIPhone" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 57117E8F2646B5860001D814;
+			productRefGroup = 57117E992646B5860001D814 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57117E972646B5860001D814 /* ezPaintIPhone */,
+				57117EAD2646B58A0001D814 /* ezPaintIPhoneTests */,
+				57117EB82646B58A0001D814 /* ezPaintIPhoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57117E962646B5860001D814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57117EA82646B58A0001D814 /* LaunchScreen.storyboard in Resources */,
+				57117EA52646B58A0001D814 /* Assets.xcassets in Resources */,
+				57117EA32646B5860001D814 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57117EAC2646B58A0001D814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57117EB72646B58A0001D814 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57117E942646B5860001D814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57117EA02646B5860001D814 /* ViewController.swift in Sources */,
+				57117E9C2646B5860001D814 /* AppDelegate.swift in Sources */,
+				57117E9E2646B5860001D814 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57117EAA2646B58A0001D814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57117EB32646B58A0001D814 /* ezPaintIPhoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57117EB52646B58A0001D814 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57117EBE2646B58A0001D814 /* ezPaintIPhoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		57117EB02646B58A0001D814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57117E972646B5860001D814 /* ezPaintIPhone */;
+			targetProxy = 57117EAF2646B58A0001D814 /* PBXContainerItemProxy */;
+		};
+		57117EBB2646B58A0001D814 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 57117E972646B5860001D814 /* ezPaintIPhone */;
+			targetProxy = 57117EBA2646B58A0001D814 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		57117EA12646B5860001D814 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57117EA22646B5860001D814 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		57117EA62646B58A0001D814 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57117EA72646B58A0001D814 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57117EC02646B58A0001D814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		57117EC12646B58A0001D814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57117EC32646B58A0001D814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A37U4DD722;
+				INFOPLIST_FILE = ezPaintIPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chinming.ezPaintIPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		57117EC42646B58A0001D814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A37U4DD722;
+				INFOPLIST_FILE = ezPaintIPhone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chinming.ezPaintIPhone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		57117EC62646B58A0001D814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A37U4DD722;
+				INFOPLIST_FILE = ezPaintIPhoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chinming.ezPaintIPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ezPaintIPhone.app/ezPaintIPhone";
+			};
+			name = Debug;
+		};
+		57117EC72646B58A0001D814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A37U4DD722;
+				INFOPLIST_FILE = ezPaintIPhoneTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chinming.ezPaintIPhoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ezPaintIPhone.app/ezPaintIPhone";
+			};
+			name = Release;
+		};
+		57117EC92646B58A0001D814 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A37U4DD722;
+				INFOPLIST_FILE = ezPaintIPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chinming.ezPaintIPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ezPaintIPhone;
+			};
+			name = Debug;
+		};
+		57117ECA2646B58A0001D814 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = A37U4DD722;
+				INFOPLIST_FILE = ezPaintIPhoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chinming.ezPaintIPhoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ezPaintIPhone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57117E932646B5860001D814 /* Build configuration list for PBXProject "ezPaintIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57117EC02646B58A0001D814 /* Debug */,
+				57117EC12646B58A0001D814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57117EC22646B58A0001D814 /* Build configuration list for PBXNativeTarget "ezPaintIPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57117EC32646B58A0001D814 /* Debug */,
+				57117EC42646B58A0001D814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57117EC52646B58A0001D814 /* Build configuration list for PBXNativeTarget "ezPaintIPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57117EC62646B58A0001D814 /* Debug */,
+				57117EC72646B58A0001D814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57117EC82646B58A0001D814 /* Build configuration list for PBXNativeTarget "ezPaintIPhoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57117EC92646B58A0001D814 /* Debug */,
+				57117ECA2646B58A0001D814 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57117E902646B5860001D814 /* Project object */;
+}
