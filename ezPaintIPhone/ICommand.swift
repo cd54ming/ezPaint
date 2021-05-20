@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol PCommand {
-    func Execute()
-    func ReverseExecute()
+protocol ICommand {
+    func execute()
+    func reverseExecute()
 }

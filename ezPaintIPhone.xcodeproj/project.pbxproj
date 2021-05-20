@@ -15,6 +15,18 @@
 		57117EA82646B58A0001D814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57117EA62646B58A0001D814 /* LaunchScreen.storyboard */; };
 		57117EB32646B58A0001D814 /* ezPaintIPhoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EB22646B58A0001D814 /* ezPaintIPhoneTests.swift */; };
 		57117EBE2646B58A0001D814 /* ezPaintIPhoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EBD2646B58A0001D814 /* ezPaintIPhoneUITests.swift */; };
+		57117ECE2646B9AE0001D814 /* Canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ECD2646B9AE0001D814 /* Canvas.swift */; };
+		57117ED02646E55B0001D814 /* ICommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ECF2646E55B0001D814 /* ICommand.swift */; };
+		57117ED22646E5E40001D814 /* DrawCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ED12646E5E40001D814 /* DrawCommand.swift */; };
+		57117ED42646E5FA0001D814 /* MoveCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ED32646E5FA0001D814 /* MoveCommand.swift */; };
+		57117ED6264769C20001D814 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ED5264769C10001D814 /* Shape.swift */; };
+		57117ED826476A610001D814 /* Point.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ED726476A610001D814 /* Point.swift */; };
+		57117EDA26477DDD0001D814 /* Ellipse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117ED926477DDD0001D814 /* Ellipse.swift */; };
+		57117EDE2647A7B90001D814 /* ShapeFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EDD2647A7B90001D814 /* ShapeFactory.swift */; };
+		57117EE02647B1760001D814 /* CommandManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EDF2647B1750001D814 /* CommandManager.swift */; };
+		57117EE22647B3110001D814 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EE12647B3110001D814 /* Stack.swift */; };
+		57117EE42648721A0001D814 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EE32648721A0001D814 /* Rectangle.swift */; };
+		57117EE6264876DC0001D814 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57117EE5264876DB0001D814 /* Triangle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,18 @@
 		57117EB92646B58A0001D814 /* ezPaintIPhoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ezPaintIPhoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57117EBD2646B58A0001D814 /* ezPaintIPhoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ezPaintIPhoneUITests.swift; sourceTree = "<group>"; };
 		57117EBF2646B58A0001D814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57117ECD2646B9AE0001D814 /* Canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Canvas.swift; sourceTree = "<group>"; };
+		57117ECF2646E55B0001D814 /* ICommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICommand.swift; sourceTree = "<group>"; };
+		57117ED12646E5E40001D814 /* DrawCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawCommand.swift; sourceTree = "<group>"; };
+		57117ED32646E5FA0001D814 /* MoveCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveCommand.swift; sourceTree = "<group>"; };
+		57117ED5264769C10001D814 /* Shape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shape.swift; sourceTree = "<group>"; };
+		57117ED726476A610001D814 /* Point.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point.swift; sourceTree = "<group>"; };
+		57117ED926477DDD0001D814 /* Ellipse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ellipse.swift; sourceTree = "<group>"; };
+		57117EDD2647A7B90001D814 /* ShapeFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeFactory.swift; sourceTree = "<group>"; };
+		57117EDF2647B1750001D814 /* CommandManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandManager.swift; sourceTree = "<group>"; };
+		57117EE12647B3110001D814 /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		57117EE32648721A0001D814 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		57117EE5264876DB0001D814 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +123,8 @@
 		57117E9A2646B5860001D814 /* ezPaintIPhone */ = {
 			isa = PBXGroup;
 			children = (
+				57117ED12646E5E40001D814 /* DrawCommand.swift */,
+				57117EE5264876DB0001D814 /* Triangle.swift */,
 				57117E9B2646B5860001D814 /* AppDelegate.swift */,
 				57117E9D2646B5860001D814 /* SceneDelegate.swift */,
 				57117E9F2646B5860001D814 /* ViewController.swift */,
@@ -106,6 +132,16 @@
 				57117EA42646B58A0001D814 /* Assets.xcassets */,
 				57117EA62646B58A0001D814 /* LaunchScreen.storyboard */,
 				57117EA92646B58A0001D814 /* Info.plist */,
+				57117ECD2646B9AE0001D814 /* Canvas.swift */,
+				57117ED5264769C10001D814 /* Shape.swift */,
+				57117ECF2646E55B0001D814 /* ICommand.swift */,
+				57117ED32646E5FA0001D814 /* MoveCommand.swift */,
+				57117ED726476A610001D814 /* Point.swift */,
+				57117ED926477DDD0001D814 /* Ellipse.swift */,
+				57117EDD2647A7B90001D814 /* ShapeFactory.swift */,
+				57117EDF2647B1750001D814 /* CommandManager.swift */,
+				57117EE12647B3110001D814 /* Stack.swift */,
+				57117EE32648721A0001D814 /* Rectangle.swift */,
 			);
 			path = ezPaintIPhone;
 			sourceTree = "<group>";
@@ -258,9 +294,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57117ED02646E55B0001D814 /* ICommand.swift in Sources */,
 				57117EA02646B5860001D814 /* ViewController.swift in Sources */,
+				57117EE22647B3110001D814 /* Stack.swift in Sources */,
+				57117EDE2647A7B90001D814 /* ShapeFactory.swift in Sources */,
+				57117EE02647B1760001D814 /* CommandManager.swift in Sources */,
+				57117EDA26477DDD0001D814 /* Ellipse.swift in Sources */,
+				57117ED42646E5FA0001D814 /* MoveCommand.swift in Sources */,
 				57117E9C2646B5860001D814 /* AppDelegate.swift in Sources */,
+				57117ED22646E5E40001D814 /* DrawCommand.swift in Sources */,
+				57117ED826476A610001D814 /* Point.swift in Sources */,
 				57117E9E2646B5860001D814 /* SceneDelegate.swift in Sources */,
+				57117ECE2646B9AE0001D814 /* Canvas.swift in Sources */,
+				57117EE6264876DC0001D814 /* Triangle.swift in Sources */,
+				57117ED6264769C20001D814 /* Shape.swift in Sources */,
+				57117EE42648721A0001D814 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
